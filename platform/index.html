@@ -1,0 +1,374 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../about/">
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.2, mkdocs-material-9.2.3">
+    
+    
+      
+        <title>Current Platform - SmartSuite Internal Developer Platform</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0e669242.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.85d0ee34.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-CE3J6DH7QH"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-CE3J6DH7QH",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-CE3J6DH7QH",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#current-platform" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="SmartSuite Internal Developer Platform" class="md-header__button md-logo" aria-label="SmartSuite Internal Developer Platform" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SmartSuite Internal Developer Platform
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Current Platform
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://tfs.brocksolutions.com/TL/Platform/_git/Documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Azure DevOps
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="SmartSuite Internal Developer Platform" class="md-nav__button md-logo" aria-label="SmartSuite Internal Developer Platform" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    SmartSuite Internal Developer Platform
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://tfs.brocksolutions.com/TL/Platform/_git/Documentation" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Azure DevOps
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About this site
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Current Platform
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="current-platform">Current Platform</h1>
+<p>This diagram represents our current understanding of SmartSuite Internal Developer Platform. Note that this development platform is
+still under construction, and some components of the diagram are not yet fully-defined, and some components may change.</p>
+<div class="puml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="188px" preserveAspectRatio="true" style="background: #ffffff" version="1.1" viewBox="0 0 1545 188" width="1545px" zoomAndPan="magnify"><defs/><g><g id="cluster_Resource Plane"><path d="M759.5,84.17 L883.5,84.17 A3.75,3.75 0 0 1 886,86.67 L893,106.4669 L1147.5,106.4669 A2.5,2.5 0 0 1 1150,108.9669 L1150,178.97 A2.5,2.5 0 0 1 1147.5,181.47 L759.5,181.47 A2.5,2.5 0 0 1 757,178.97 L757,86.67 A2.5,2.5 0 0 1 759.5,84.17 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="757" x2="893" y1="106.4669" y2="106.4669"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="123" x="761" y="99.1651">Resource Plane</text></g><g id="cluster_Integration Plane"><path d="M8.5,84.17 L143.5,84.17 A3.75,3.75 0 0 1 146,86.67 L153,106.4669 L730.5,106.4669 A2.5,2.5 0 0 1 733,108.9669 L733,178.97 A2.5,2.5 0 0 1 730.5,181.47 L8.5,181.47 A2.5,2.5 0 0 1 6,178.97 L6,86.67 A2.5,2.5 0 0 1 8.5,84.17 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="153" y1="106.4669" y2="106.4669"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="134" x="10" y="99.1651">Integration Plane</text></g><g id="cluster_Developer Plane"><path d="M1176.5,84.17 L1306.5,84.17 A3.75,3.75 0 0 1 1309,86.67 L1316,106.4669 L1535.5,106.4669 A2.5,2.5 0 0 1 1538,108.9669 L1538,178.97 A2.5,2.5 0 0 1 1535.5,181.47 L1176.5,181.47 A2.5,2.5 0 0 1 1174,178.97 L1174,86.67 A2.5,2.5 0 0 1 1176.5,84.17 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1174" x2="1316" y1="106.4669" y2="106.4669"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="129" x="1178" y="99.1651">Developer Plane</text></g><g id="elem_Azure Container Apps"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="190" x="773" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="943" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="941" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="941" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="788" y="152.1651">Azure Container Apps</text></g><g id="elem_Azure SQL DB"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="998" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1114" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1112" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1112" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="1013" y="152.1651">Azure SQL DB</text></g><g id="elem_Azure Pipelines (CI)"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="22.5" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="175.5" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="173.5" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="173.5" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="133" x="37.5" y="152.1651">Azure Pipelines (CI)</text></g><g id="elem_Docker Hub"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="230" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="332" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="330" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="330" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="245" y="152.1651">Docker Hub</text></g><g id="elem_Humanitec"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="114" x="387" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="481" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="479" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="479" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="402" y="152.1651">Humanitec</text></g><g id="elem_Azure Pipelines (CD)"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="181" x="535.5" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="696.5" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="694.5" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="694.5" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="550.5" y="152.1651">Azure Pipelines (CD)</text></g><g id="elem_Visual Studio"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="1190" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1298" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1296" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1296" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="1205" y="152.1651">Visual Studio</text></g><g id="elem_Visual Studio Code"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="1353.5" y="119.17"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1502.5" y="124.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1500.5" y="126.17"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1500.5" y="130.17"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="1368.5" y="152.1651">Visual Studio Code</text></g><g id="link_Azure Pipelines (CD)_Azure SQL DB"><path d="M651.8,118.87 C679.7,95.24 726.64,60.32 774.5,46.17 C855.06,22.37 885.39,15.27 963.5,46.17 C997.96,59.8 1027.61,91.1 1046.02,114.31 " fill="none" id="Azure Pipelines (CD)-to-Azure SQL DB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1049.56,117.83,1047.1632,108.2772,1046.4785,113.8925,1040.8632,113.2077,1049.56,117.83" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_Azure Pipelines (CD)_Azure Container Apps"><path d="M716.75,142.32 C733.47,142.32 750.19,142.32 766.91,142.32 " fill="none" id="Azure Pipelines (CD)-to-Azure Container Apps" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="771.58,142.32,762.58,138.32,766.58,142.32,762.58,146.32,771.58,142.32" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_Humanitec_Azure Pipelines (CD)"><path d="M501.23,142.32 C510.65,142.32 520.07,142.32 529.48,142.32 " fill="none" id="Humanitec-to-Azure Pipelines (CD)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="534.35,142.32,525.35,138.32,529.35,142.32,525.35,146.32,534.35,142.32" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_Docker Hub_Humanitec"><path d="M352.26,142.32 C361.76,142.32 371.25,142.32 380.75,142.32 " fill="none" id="Docker Hub-to-Humanitec" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="385.66,142.32,376.66,138.32,380.66,142.32,376.66,146.32,385.66,142.32" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_Azure Pipelines (CI)_Docker Hub"><path d="M195.73,142.32 C205.08,142.32 214.43,142.32 223.78,142.32 " fill="none" id="Azure Pipelines (CI)-to-Docker Hub" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="228.6,142.32,219.6,138.32,223.6,142.32,219.6,146.32,228.6,142.32" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_Visual Studio Code_Azure Pipelines (CI)"><path d="M1417.95,118.75 C1396.23,95.2 1359.19,60.51 1318.5,46.17 C1204.48,6 344.68,6.46 230.5,46.17 C191.75,59.65 156.05,91.19 133.52,114.49 " fill="none" id="Visual Studio Code-to-Azure Pipelines (CI)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="130.47,117.74,139.5738,113.9823,133.9186,114.1197,133.7813,108.4645,130.47,117.74" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_Visual Studio_Azure Pipelines (CI)"><path d="M1233.53,118.74 C1211.38,95.19 1173.66,60.49 1132.5,46.17 C1037.84,13.25 325.16,13.25 230.5,46.17 C191.75,59.65 156.05,91.19 133.52,114.49 " fill="none" id="Visual Studio-to-Azure Pipelines (CI)" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="130.47,117.74,139.5738,113.9823,133.9186,114.1197,133.7813,108.4645,130.47,117.74" style="stroke:#181818;stroke-width:1.0;"/></g></g></svg></div>
+
+<div class="puml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="625px" preserveAspectRatio="true" style="background: #ffffff" version="1.1" viewBox="0 0 605 625" width="605px" zoomAndPan="magnify"><defs/><g><g id="cluster_vcs"><rect fill="none" height="206.59" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="357" x="7" y="7"/><path d="M39,7 L39,16.2969 L29,26.2969 L7,26.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="10" y="20.9951">Git</text></g><g id="cluster_ci"><rect fill="none" height="103.3" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="193" x="404" y="110.29"/><path d="M429,110.29 L429,119.5869 L419,129.5869 L404,129.5869 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="407" y="124.2851">CI</text></g><g id="cluster_artifacts"><rect fill="none" height="103.3" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="187" x="404" y="253.59"/><path d="M481,253.59 L481,262.8869 L471,272.8869 L404,272.8869 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="67" x="407" y="267.5851">Artifacts</text></g><g id="cluster_platform"><rect fill="none" height="103.29" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="196" x="403" y="396.89"/><path d="M593,396.89 L593,406.1869 L583,416.1869 L403,416.1869 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="180" x="406" y="410.8851">Platform Orchestration</text></g><g id="cluster_cd"><rect fill="none" height="87.3" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="158" x="333" y="532.18"/><path d="M365,532.18 L365,541.4769 L355,551.4769 L333,551.4769 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="22" x="336" y="546.1751">CD</text></g><g id="elem_code"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="110" x="41" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="51" y="72.9951">Source Code</text></g><g id="elem_dockerfile"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="89" x="186.5" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="196.5" y="72.9951">Dockerfile</text></g><g id="elem_workload"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="30.5" y="153.29"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="40.5" y="176.2851">Workload Specs</text></g><g id="elem_bicep"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="136" x="196" y="153.29"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="206" y="176.2851">Bicep Templates</text></g><g id="elem_azpipelines"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="447" y="153.29"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="457" y="176.2851">Azure Pipelines</text></g><g id="elem_azartifacts"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="447.5" y="296.59"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="457.5" y="319.5851">Azure Artifacts</text></g><g id="elem_humanitec"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="464" y="439.89"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="474" y="462.8851">Humanitec</text></g><g id="elem_cdpipeline"><rect fill="#F1F1F1" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="349" y="567.18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="359" y="590.1751">Azure Pipelines</text></g><g id="link_vcs_ci"><path d="M364.0643,83.7338 C364.1414,83.8733 364.2189,84.0135 364.2968,84.1545 C364.6085,84.7183 364.9269,85.2941 365.2514,85.8811 C370.4441,95.2734 377.2281,107.5444 384.0113,119.8138 C390.7944,132.0831 397.5766,144.3509 402.7655,153.737 C403.0898,154.3237 403.4079,154.899 403.7193,155.4625 C403.7972,155.6033 403.8747,155.7434 403.9517,155.8828 " fill="none" id="vcs-to-ci" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="403.9517,155.8828,403.098,146.071,401.5326,151.5069,396.0967,149.9415,403.9517,155.8828" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_ci_artifacts"><path d="M412,214.2075 C412,214.454 412,214.701 412,214.9486 C412,215.939 412,216.9382 412,217.9452 C412,226.0013 412,234.5591 412,243.1163 C412,245.2555 412,247.3948 412,249.5262 C412,250.5919 412,251.6556 412,252.7164 C412,252.9816 412,253.2466 412,253.5114 " fill="none" id="ci-to-artifacts" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="412,253.5114,416,244.5114,412,248.5114,408,244.5114,412,253.5114" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_artifacts_platform"><path d="M412,357.5031 C412,357.7496 412,357.9966 412,358.2442 C412,359.2346 412,360.2338 412,361.2408 C412,369.297 412,377.855 412,386.4125 C412,388.5519 412,390.6912 412,392.8227 C412,393.8884 412,394.9522 412,396.013 C412,396.2782 412,396.5432 412,396.8081 " fill="none" id="artifacts-to-platform" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="412,396.8081,416,387.8081,412,391.8081,408,387.8081,412,396.8081" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_platform_cdpipeline"><path d="M412,500.2502 C412,500.4143 412,500.5786 412,500.7432 C412,501.0723 412,501.4022 412,501.733 C412,503.056 412,504.3923 412,505.7392 C412,508.4329 412,511.1688 412,513.925 C412,519.4375 412,525.0313 412,530.5323 C412,541.5344 412,552.165 412,561.03 " fill="none" id="platform-to-cdpipeline" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="412,565.88,416,556.88,412,560.88,408,556.88,412,565.88" style="stroke:#181818;stroke-width:1.0;"/></g></g></svg></div>
+
+<div class="puml"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="603px" preserveAspectRatio="true" style="background: #ffffff" version="1.1" viewBox="0 0 1033 603" width="1033px" zoomAndPan="magnify"><defs/><g><g id="cluster_Developer Control Plane"><rect fill="#B0E0E6" height="541" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="551" x="7" y="7"/><path d="M209,7 L209,16.2969 L199,26.2969 L7,26.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="192" x="10" y="20.9951">Developer Control Plane</text></g><g id="cluster_vcs"><rect fill="#DCDCDC" height="400" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="248" x="278" y="58"/><path d="M412,58 L412,67.2969 L402,77.2969 L278,77.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="124" x="281" y="71.9951">Version Control</text></g><g id="cluster_Code"><rect fill="#DCDCDC" height="87" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="184" x="310" y="109"/><path d="M361,109 L361,118.2969 L351,128.2969 L310,128.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="41" x="313" y="122.9951">Code</text></g><g id="cluster_Workload Specs"><rect fill="#DCDCDC" height="87" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="142" x="331.5" y="220"/><path d="M468.5,220 L468.5,229.2969 L458.5,239.2969 L331.5,239.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="334.5" y="233.9951">Workload Specs</text></g><g id="cluster_Infrastructure"><rect fill="#DCDCDC" height="87" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="126" x="339.5" y="331"/><path d="M459.5,331 L459.5,340.2969 L449.5,350.2969 L339.5,350.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="342.5" y="344.9951">Infrastructure</text></g><g id="cluster_portal"><rect fill="#DCDCDC" height="123" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="148" x="63.5" y="58"/><path d="M205.5,58 L205.5,67.2969 L195.5,77.2969 L63.5,77.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="132" x="66.5" y="71.9951">Developer Portal</text></g><g id="cluster_ide"><rect fill="#DCDCDC" height="295" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="197" x="39" y="221"/><path d="M73,221 L73,230.2969 L63,240.2969 L39,240.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="24" x="42" y="234.9951">IDE</text></g><g id="cluster_Integration &amp; Delivery Plane"><rect fill="#B0E0E6" height="206" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="445" x="582" y="391"/><path d="M813,391 L813,400.2969 L803,410.2969 L582,410.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="221" x="585" y="404.9951">Integration &amp; Delivery Plane</text></g><g id="cluster_ci"><rect fill="#DCDCDC" height="123" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="174" x="614" y="442"/><path d="M639,442 L639,451.2969 L629,461.2969 L614,461.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="617" y="455.9951">CI</text></g><g id="cluster_artifacts"><rect fill="#DCDCDC" height="123" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="167" x="828" y="442"/><path d="M963,442 L963,451.2969 L953,461.2969 L828,461.2969 " fill="none" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="125" x="831" y="455.9951">Artifact Storage</text></g><g id="elem_azgit"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="152" x="326" y="143.85"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="336" y="166.8451">Azure DevOps (Git)</text></g><g id="elem_score"><rect fill="#FFC0CB" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="368.5" y="254.85"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="378.5" y="277.8451">Score?</text></g><g id="elem_bicep"><rect fill="#FFF8DC" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="59" x="372.5" y="365.85"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="382.5" y="388.8451">Bicep</text></g><g id="elem_backstage"><rect fill="#FFC0CB" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="100" x="87.5" y="100.85"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="97.5" y="123.8451">Backstage?</text></g><g id="elem_vstudio"><rect fill="#FFFFFF" height="87.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="108" x="83.5" y="283.35"/><image height="51" width="51" x="93.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAACl0lEQVR4Xs3Zy60iMRSEYYIjBXazJgVSIAVSIIMRKZACKZBCjwrJyPzHjzL0Yxbfpqfbp+qO3O2ru5umafe/uN/v0+l0mm632wv/vSdc2Eoqklyv1zfeWxMubOH5fP7Ji7CMWypc2AKL1MokKs81JFxYG0s4ZZLH4/E3XyssviYWGC2TaL9pvTBgLQxPDNyjt18YsgYGL2FYRxi0NIauYVBHGLak8/kcQtcwqCMMTEOF139xuVxC4BYGdbyH6d2dSuQY6hvanAzbw6COaokc3+cj9CyDOhjUsTscDpOwAOlmBnUwpItBHe8yTiFh2BYGHMGgjo8ycxY6Ho/Tt/Q8gzpCGbdQ7bA3R5FZy7iF0plojiJaL1+HQR3VMlqQ4Uv0/fi1SOm3SgZ1NMs4r+1Em5YhHSyxWBnRd4LBaxi0hwUWLyMjX3AGLtF9DE8M6rDKyOjZigWSfI+1MKjDLiNpb7hYZORYxKCOoTLCwD2pCNfpYVDHcBlh4B4+72BQx3CZfBOPKH1gWxjUMVSGe4CBe9zNLwzqsMuwyLeFhGuXMKhjt9/vpxKnyJKFGNTRLaPBDF/CsI7WyZtBHc0y7hFF942cEnIKwSKzl1E4hi7JP4RakGFdLKOXxahqGYYuYQAZPSXUCjGoo1iGb7YSlsgx5IhZyzA01f5HiCFH6APLoI6PMgxOtc1aw5AjGNTx+mg6RVqv0RaGdDGo4zWQwYkBRzGog0EdH0O1H+YukjBsD4M6wlDRt2PkFylH6S/KLQzqCEOXxL/1tzCoIwxcmntKYFBHGLYG58zHoI4waC366bPAL2W0ZhiyJhb4tkxaLwxYG0uMlOFaYfEtsEivDJ9PwoWtOGX4DIULW6qV4X014cLWUoHRE7r8A2JhzFbytDu0AAAAAElFTkSuQmCC" y="293.35"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="93.5" y="357.3451">Visual Studio</text></g><g id="elem_vscode"><rect fill="#FFFFFF" height="86.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="149" x="63" y="405.85"/><image height="50" width="51" x="73" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAyCAYAAADx/eOPAAACYElEQVR4Xs3Z0Y3qMBBGYZqkBVqgBVqgBVqghbRAC7SQ1SAZhTOO/Y/jOPvwveSK8Zkl3LDa0zzPp//ker3O9/v9g/9W4y4cxeJtkSQtFFnKXTgCF+Ey6lLuwmhcorRMbSl3YSQuoC6ztpQ7YBTGE8NL0kx3yAgMz2Fwjc11B+2N0WsYq3CH7YnBJQxVuAP38Hw+XWwNQxXu4N6maXKhCoYq3OE9MTCCoYrVAF6Pulwu8xYMVXwPf7/fF/50GKhiWAuGKlYXaV2KUS1sDkMVp9frNTE+h9E5jIqyoDSLoYrQh9QW5wK9FuE8hipCyyTLQ+0WZVgUF2lexl7IWEWPRR6PR3aRTcu0LmQYqGI8MVTxM6D1ac3QGobnMFThhrR8j1IXKt1WxFCFG5IwVsUFIu/G0u12m6PckCWGqrYuYhiqcEOIoSpbwt56zlMxVOGGkEUxVGUHcJ6KoQo3ZGl5qzA0gnMVDFW4IQnvexUXSewByzNKGKpwQ+xZw8BeIp8hhip+BtgzhgF7YHgOQxXfF5/P5zmCgVG1246hiqZFjL1u6xdNC+ASm5ZhZE3ufydGRnHekGXsM8VDey3E246his+vzYzOYXwOA6MsaNMy9sLSQrnbqoSBLTYtY+xt5iJ861WMa8FQhQuJ3FYljItiqMJF9LTlIcxQhQvorXUhhirc4XthbA1DFe7QPTG4hKEKd+DeGL2GoQp32AgMz2Fojc11B43CeGJsSZrpDhmJCyzxN9UcznMHjGY/WS5SW4YzEnfhCLmFuEBpicRdOAq/G0aWSNyFI9m39/SulP6wteYPDa7Cq+YZlrsAAAAASUVORK5CYII=" y="415.85"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="73" y="478.8451">Visual Studio Code</text></g><g id="elem_azpipelines"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="126" x="638" y="484.85"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="648" y="507.8451">Azure Pipelines</text></g><g id="elem_azartifacts"><rect fill="#FFFFFF" height="36.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="852" y="484.85"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="862" y="507.8451">Azure Artifacts</text></g><g id="link_vscode_azpipelines"><path d="M191.07,492.58 C211.85,507.13 236.77,521.54 262,529 C391.57,567.3 434.5,560.04 566,529 C569.87,528.09 570.22,526.24 574,525 C592.35,518.95 612.78,514.48 631.76,511.2 " fill="none" id="vscode-to-azpipelines" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="636.59,510.22,627.0514,507.7675,631.6592,511.0489,628.3777,515.6567,636.59,510.22" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_vstudio_azpipelines"><path d="M191.77,343.34 C213.88,352.85 237.67,367.17 252,388 C271.81,416.79 236.76,441.83 262,466 C313.37,515.2 522.18,512.36 631.89,507.19 " fill="none" id="vstudio-to-azpipelines" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="636.69,506.91,627.5065,503.3513,631.6959,507.1526,627.8947,511.3419,636.69,506.91" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_score_azpipelines"><path d="M435.78,283.94 C470.33,296.46 525.28,319.27 566,350 C616.37,388.01 661.72,447.51 684.51,479.98 " fill="none" id="score-to-azpipelines" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="687.7,483.56,685.8361,473.8891,684.8413,479.4578,679.2726,478.463,687.7,483.56" style="stroke:#181818;stroke-width:1.0;"/></g><g id="link_azpipelines_azartifacts"><path d="M764.27,503 C790.04,503 819.92,503 845.93,503 " fill="none" id="azpipelines-to-azartifacts" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="850.76,503,841.76,499,845.76,503,841.76,507,850.76,503" style="stroke:#181818;stroke-width:1.0;"/></g></g></svg></div>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright 2023, Brock Solutions, Inc.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.dfff1995.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.78eede0e.min.js"></script>
+      
+    
+  </body>
+</html>
